@@ -28,9 +28,9 @@ const Registration = ({ setTab }) => {
 
 
     return (
-        <div className="bg-blue-100 w-full justify-around flex m-5 rounded-3xl p-5">
+        <div className="bg-blue-100 w-full justify-around flex rounded-3xl p-10">
             <div className="w-full p-28">
-                <p className="text-[50px] text-center">{stepName[currentStep]}</p>
+                <p className="text-[50px] text-center underline">{stepName[currentStep]}</p>
             </div>
             <div className="w-full">
                 {currentStep === 0 && <BasicDetail setNextStep={stepHanlder} currentStep={currentStep} />}

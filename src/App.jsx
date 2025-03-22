@@ -7,7 +7,7 @@ function App() {
   const [tab, setTab] = useState(0)
 
   return (
-    <div >
+    <div className="w-full">
       <ul className="flex flex-wrap text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400">
         <li className="me-2">
           <p aria-current="page"
